@@ -72,7 +72,7 @@ const Hero = () => {
   setLoading(true);
   try {
     const res = await axios.post(
-      "https://travel-planner-backend-production.up.railway.app/api/generate-itinerary",
+      "https://backend-travelplanner-production.up.railway.app/api/generate-itinerary",
       form,
       {
         headers: {
