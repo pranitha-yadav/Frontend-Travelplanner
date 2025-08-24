@@ -66,7 +66,7 @@ const Hero = () => {
     setLoading(true);
     try {
       const res = await axios.post(
-        "https://ajaybinu-travelplanner.duckdns.org/api/generate-itinerary",
+        "https://backend-travelplanner-production.up.railway.app/api/generate-itinerary",
         form,
         {
           headers: {
@@ -93,7 +93,7 @@ const Hero = () => {
     e.preventDefault();
     try {
       const res = await axios.post(
-        "https://ajaybinu-travelplanner.duckdns.org/api/itineraries",
+        "https://backend-travelplanner-production.up.railway.app/api/itineraries",
         itinerary,
         {
           headers: {
